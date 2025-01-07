@@ -8,6 +8,7 @@ public class Runner {
 
     @Test
     public void test() {
-        assertEquals(3, 1+1);
+        Helmet h = new Helmet("Gold");
+        assertEquals(1.5, h.getWeight(), .1);
     }
 }
